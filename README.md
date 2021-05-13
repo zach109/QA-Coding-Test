@@ -1,6 +1,6 @@
 # QA Coding Test
 
-Testing Tools:
+Automation Tools:
 1. Appium
 2. Android Studio
 
