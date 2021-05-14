@@ -23,7 +23,7 @@ https://github.com/sendbird/SendBird-Android/tree/d7e93d971ff0a0f44ca9e97207ddaf
 3. Send a text message P
 4. Logout from User A
 
-## End to end testing:
+## End to end testing
 ### Test suite 2: As a user, I can send both text and image message to a channel
 1. Login as User A
 2. Enter Open Channel M
