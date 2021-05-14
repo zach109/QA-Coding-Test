@@ -14,8 +14,8 @@ class Test_Suite_2_3(unittest.TestCase):
         desired_caps['appActivity'] = 'com.sendbird.android.sample.main.SplashActivity'
         self.driver = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps)
         self.driver.implicitly_wait(10)
-        self.channel_name = 'Farther'
-        self.text_message = 'Hello world'
+        self.channel_name = 'test1009'
+        self.text_message = 'Hello'
         self.image_name = 'image.jpg'
 
     def test_sutie_2(self):

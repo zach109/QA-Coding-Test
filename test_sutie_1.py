@@ -25,8 +25,10 @@ class Test_Suite_1(unittest.TestCase):
         #Enter Open Channel
         self.driver.find_element_by_id('com.sendbird.android.sample:id/linear_layout_open_channels').click()
         time.sleep(2)
-        self.driver.find_element_by_xpath("//android.widget.TextView[@text='M']").click()
+        channel_xpath = '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout[1]'
+        self.driver.find_element_by_xpath(channel_xpath).click()
         time.sleep(2)
+
         self.assertIn("Enter message", self.driver.page_source, msg="Enter Open Channel Failed")
 
         #Send a text Message
