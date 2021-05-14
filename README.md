@@ -36,3 +36,10 @@ https://github.com/sendbird/SendBird-Android/tree/d7e93d971ff0a0f44ca9e97207ddaf
 2. Enter Open Channel M
 3. Display text message P
 4. Display file message Q
+
+## CI/CD work flow
+### Jenkins
+1. Git Push
+2. GitHub Hook
+3. Trigger Deploy
+4. Trigger Unit test
